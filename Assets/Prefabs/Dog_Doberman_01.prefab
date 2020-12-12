@@ -136,6 +136,9 @@ GameObject:
   - component: {fileID: 6476302097102067236}
   - component: {fileID: 2473060961241102483}
   - component: {fileID: 114042393966262234}
+  - component: {fileID: 1146583393837311863}
+  - component: {fileID: 54773897768988950}
+  - component: {fileID: 114758312107337238}
   m_Layer: 0
   m_Name: Dog_Doberman_01
   m_TagString: Untagged
@@ -225,7 +228,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e27d3e46bc8117b45a69beb321d267a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 4
 --- !u!114 &114042393966262234
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -236,6 +239,47 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 628c542354f2bd94bbe50deed8207772, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &1146583393837311863
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6476302097094609184}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.101117276, y: 0.2146025, z: 0.25236928}
+  m_Center: {x: 0.0016824632, y: 0.10334407, z: 0.03674271}
+--- !u!54 &54773897768988950
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6476302097094609184}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &114758312107337238
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6476302097094609184}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec6e1c55a6b914842b587f9077491402, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &6476302097094610140
